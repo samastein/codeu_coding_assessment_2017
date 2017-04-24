@@ -21,7 +21,10 @@ final class MyJSON implements JSON {
   @Override
   public JSON getObject(String name) {
     // TODO: implement this
+
+	
     return null;
+
   }
 
   @Override
@@ -44,7 +47,9 @@ final class MyJSON implements JSON {
 
   @Override
   public void getObjects(Collection<String> names) {
-    // TODO: implement this
+	public String toString(){
+	return “Hi:Bye!”
+    // 
   }
 
   @Override
@@ -52,7 +57,7 @@ final class MyJSON implements JSON {
     // TODO: implement this
   }
 
-  //Jason Katzner 04/27/17
+  
   @Override
   public String toString() {
     return “Hi, Jason!”
