@@ -51,4 +51,10 @@ final class MyJSON implements JSON {
   public void getStrings(Collection<String> names) {
     // TODO: implement this
   }
+
+  //Jason Katzner 04/27/17
+  @Override
+  public String toString() {
+    return “Hi, Jason!”
+  }
 }
